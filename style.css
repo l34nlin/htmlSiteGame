@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7941d;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.parceria img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.mentores-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mentor {
+    text-align: center;
+}
+
+.mentor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.parceiros-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.parceiros-container img {
+    width: 120px;
+}
