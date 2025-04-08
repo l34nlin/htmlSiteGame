@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treta dos Irmãos</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apresentação do Jogo</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo do Jogo" class="logo">
+    <h1>Meu Jogo</h1>
     <nav>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SOBRE</a></li>
-        <li><a href="#">GALERIA DE FOTOS</a></li>
-        <li><a href="#">CONTATO</a></li>
-        <li><a href="#" class="btn-jogar">JOGAR</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#prints">Prints</a></li>
+        <li><a href="#jogar">Jogar</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="banner">
-      <img src="banner.png" alt="Banner do Jogo">
+    <!-- Home -->
+    <section id="home">
+      <h2>Bem-vindo ao Meu Jogo</h2>
+      <img src="logo.png" alt="Logo do Jogo" class="logo" />
+      <p>Um jogo incrível te espera. Prepare-se para aventuras desafiadoras!</p>
     </section>
 
-    <section class="galeria">
-      <h2>Galeria de Fotos</h2>
-      <div class="imagens">
-        <img src="print1.png" alt="Print 1">
-        <img src="print2.png" alt="Print 2">
-        <img src="print3.png" alt="Print 3">
+    <!-- Prints -->
+    <section id="prints">
+      <h2>Prints do Jogo</h2>
+      <div class="galeria">
+        <img src="print1.jpg" alt="Print 1" />
+        <img src="print2.jpg" alt="Print 2" />
+        <img src="print3.jpg" alt="Print 3" />
+      </div>
+    </section>
+
+    <!-- Jogar -->
+    <section id="jogar">
+      <h2>Jogue Agora</h2>
+      <p>Em breve, você poderá jogar diretamente por aqui!</p>
+      <div class="game-container">
+        
+        <!-- Exemplo do futiuto: <iframe src="jogo/index.html" width="800" height="600"></iframe> -->
       </div>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Meu Jogo. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
