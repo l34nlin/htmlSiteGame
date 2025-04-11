@@ -11,6 +11,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text,
 		C3.Plugins.Button,
 		C3.Plugins.Audio,
+		C3.Plugins.Touch,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.ScriptsInEvents.EGame_Event1_Act1,
 		C3.Plugins.Audio.Acts.Play,
@@ -29,6 +30,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Cnds.OnLand,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.Keyboard.Cnds.OnKey,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
@@ -39,8 +41,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Flash.Acts.Flash,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Sprite.Acts.Destroy,
-		C3.ScriptsInEvents.EGame_Event22_Act3,
-		C3.ScriptsInEvents.EGame_Event24,
+		C3.ScriptsInEvents.EGame_Event26_Act3,
+		C3.ScriptsInEvents.EGame_Event28,
 		C3.Behaviors.Platform.Acts.SetIgnoreInput,
 		C3.Behaviors.scrollto.Acts.Shake,
 		C3.Plugins.Sprite.Acts.SetOpacity,
@@ -81,6 +83,11 @@ self.C3_JsPropNameTable = [
 	{Texto: 0},
 	{Botão: 0},
 	{Texto2: 0},
+	{Sprite3: 0},
+	{Sprite4: 0},
+	{Sprite5: 0},
+	{Sprite6: 0},
+	{Toque: 0},
 	{Life: 0}
 ];
 
@@ -112,5 +119,10 @@ self.InstanceType = {
 	Áudio: class extends self.IInstance {},
 	Texto: class extends self.ITextInstance {},
 	Botão: class extends self.IButtonInstance {},
-	Texto2: class extends self.ITextInstance {}
+	Texto2: class extends self.ITextInstance {},
+	Sprite3: class extends self.ISpriteInstance {},
+	Sprite4: class extends self.ISpriteInstance {},
+	Sprite5: class extends self.ISpriteInstance {},
+	Sprite6: class extends self.ISpriteInstance {},
+	Toque: class extends self.IInstance {}
 }

@@ -7,7 +7,7 @@ const scriptsInEvents = {
 		//runtime.objects.Audio.playMusic("Trilha Sonora.webm", { loop: true });
 	},
 
-	async EGame_Event22_Act3(runtime, localVars)
+	async EGame_Event26_Act3(runtime, localVars)
 	{
 		//obter o valor da variavel global vidas
 		let Life = runtime.globalVars.Life;
@@ -20,7 +20,7 @@ const scriptsInEvents = {
 		//runtime.goToLayout("GameOver")};
 	},
 
-	async EGame_Event24(runtime, localVars)
+	async EGame_Event28(runtime, localVars)
 	{
 		
 	}
